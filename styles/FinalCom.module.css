@@ -1,0 +1,45 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  margin-left: 160px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  flex: 1;
+}
+
+.topic {
+}
+
+.topText {
+  font-weight: 200;
+}
+
+.centerText {
+  margin-left: 80px;
+}
+
+.bottomText {
+}
+
+.para {
+  margin: 80px;
+  width: 70%;
+}
+
+.right {
+  height: 100%;
+  flex: 1;
+  margin: 40px 50px;
+}
