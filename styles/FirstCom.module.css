@@ -1,5 +1,62 @@
 .container {
   width: 100vw;
-  height: 100vh;
-  background-color: teal;
+  height: 150vh;
+  /* background-color: teal; */
+  /* width: 100vw;
+  display: flex;
+  padding: 0px 60px;
+  margin-left: 280px; */
+  padding: 20px 60px;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.textContainer {
+  margin-top: 50px;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.firstSection {
+  flex: 1;
+  margin-left: 250px;
+}
+
+.topText {
+  font-size: 14px;
+}
+
+.middleText {
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.bottomText {
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.secondSection {
+  flex: 2;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin: 0px 60px;
+}
+
+.thirdSection {
+  margin-left: 80%;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  width: 200px;
+  border: none;
+  cursor: pointer;
 }
