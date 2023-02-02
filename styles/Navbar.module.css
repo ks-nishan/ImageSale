@@ -1,6 +1,6 @@
 .container {
   height: 60px;
-  background-color: lightgray;
+  margin: 20px 0px;
 }
 
 .wrapper {
@@ -14,6 +14,7 @@
   flex: 1;
   font-size: 18px;
   font-weight: 600;
+  letter-spacing: 2px;
 }
 
 .center {
@@ -22,6 +23,8 @@
 
 .topText {
   font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
 }
 
 .bottomText {
@@ -31,5 +34,9 @@
 }
 
 .right {
-  background-color: aliceblue;
+  background-color: black;
+  color: white;
+  padding: 8px;
+  display: flex;
+  align-items: center;
 }

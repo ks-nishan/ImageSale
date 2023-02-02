@@ -1,7 +1,6 @@
 .container {
   width: 100vw;
   height: 100vh;
-  background-color: lightgray;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,18 +18,18 @@
   flex: 1;
 }
 
-.topic {
-}
-
 .topText {
   font-weight: 200;
+  font-size: 46px;
 }
 
 .centerText {
   margin-left: 80px;
+  font-size: 46px;
 }
 
 .bottomText {
+  font-size: 46px;
 }
 
 .para {
@@ -40,6 +39,12 @@
 
 .right {
   height: 100%;
+  width: 100%;
   flex: 1;
   margin: 40px 50px;
+}
+
+.image {
+  height: 80%;
+  width: 70%;
 }
