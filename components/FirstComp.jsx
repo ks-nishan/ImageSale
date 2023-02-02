@@ -14,7 +14,7 @@ const FirstComp = () => {
       </div>
       <div className={styles.textContainer}>
         <div className={styles.firstSection}>
-          <p className={styles.topText}>Children of </p>
+          <p className={styles.topText}>CHILDREN OF</p>
           <p className={styles.middleText}>FORGOTTEN</p>
           <p className={styles.bottomText}> GOD </p>
         </div>
@@ -25,7 +25,9 @@ const FirstComp = () => {
           </div>
         </div>
       </div>
-      <button className={styles.thirdSection}>START BIDDING</button>
+      <div className={styles.buttonContainer}>
+        <button className={styles.thirdSection}>START BIDDING</button>
+      </div>
     </div>
   );
 };

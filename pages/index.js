@@ -26,7 +26,6 @@ export default function Home() {
       <FirstComp />
       <SecondComp />
       <FinalComp />
-      home
     </div>
   );
 }

@@ -1,3 +1,35 @@
 .container {
-  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0px 10px;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: space-between;
+  background-size: cover;
+  background-position: center;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.descContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.dis {
+  font-size: 10px;
+}
+
+.price {
+  font-weight: 600;
 }

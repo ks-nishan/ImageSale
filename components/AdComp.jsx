@@ -6,10 +6,10 @@ const AdComp = ({ item }) => {
   return (
     <div className={styles.container}>
       <div className={styles.imageContainer}>
-        <Image src={item.img} />
+        <Image className={styles.image} src={item.img} />
       </div>
-      <p className={styles.dis}>{item.desc}</p>
-      <div className={styles.priceContainer}>
+      <div className={styles.descContainer}>
+        <p className={styles.dis}>{item.desc}</p>
         <p className={styles.price}>{item.price}</p>
       </div>
     </div>

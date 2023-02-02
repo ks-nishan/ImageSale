@@ -7,7 +7,7 @@ const FinalComp = () => {
     <div className={styles.container}>
       <div className={styles.wrapper}>
         <div className={styles.left}>
-          <div className={styles.topic}>
+          <div>
             <h1 className={styles.topText}>Odio morbi</h1>
             <h1 className={styles.centerText}>Urna aliquam tinc</h1>
             <h1 className={styles.bottomText}>Aliquam Pellentesque</h1>
@@ -23,11 +23,7 @@ const FinalComp = () => {
           </div>
         </div>
         <div className={styles.right}>
-          <Image
-            className={styles.image}
-            src={image}
-            style={{ height: "450px", width: "400px" }}
-          />
+          <Image className={styles.image} src={image} />
         </div>
       </div>
     </div>
