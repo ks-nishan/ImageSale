@@ -3,10 +3,13 @@
   flex-direction: column;
   max-width: 280px;
   padding: 0 10px;
+  background-color: blanchedalmond;
 }
 
 .imageContainer {
   display: flex;
   /* align-items: center; */
   justify-content: space-between;
+  background-size: cover;
+  background-position: center;
 }
