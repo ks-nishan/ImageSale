@@ -6,7 +6,7 @@ const AdComp = ({ item }) => {
   return (
     <div className={styles.container}>
       <div className={styles.imageContainer}>
-        <Image src={item.img} />
+        <Image src={item.img} style={{ width: "100%" }} />
       </div>
       <p className={styles.dis}>{item.desc}</p>
       <div className={styles.priceContainer}>

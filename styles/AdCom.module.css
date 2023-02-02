@@ -1,3 +1,12 @@
 .container {
-  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  max-width: 280px;
+  padding: 0 10px;
+}
+
+.imageContainer {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
 }
